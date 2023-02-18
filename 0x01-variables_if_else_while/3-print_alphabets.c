@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include <stdio.>
 
 /**
- * main- Entry point
- * Decription: Alphabet Game - Upper & lowercases
+ * main - Entry point
+ * Description: Alphabet Game - CAPS & lowercase
  * Return: 0
  */
 
@@ -19,5 +19,7 @@ int main(void)
 		putchar(i);
 	}
 	putchar('\n');
+
 	return (0);
+
 }
