@@ -1,1 +1,1 @@
-2-largest_number.c
+2-largest_number
