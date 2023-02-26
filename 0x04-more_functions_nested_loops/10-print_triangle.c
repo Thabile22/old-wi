@@ -3,7 +3,7 @@
 /**
  * print_triangle - entry point
  * Description - Print a triangle
- * @size: Check the int
+ * @size: Check integer
  * Return: void
  */
 
