@@ -1,1 +1,1 @@
-10-print_triangle
+10-print_triangle.c
