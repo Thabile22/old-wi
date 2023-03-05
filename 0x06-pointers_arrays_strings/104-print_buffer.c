@@ -4,8 +4,8 @@
 /**
  * print_buffer - entry point
  * Description - Print a buffer
- * @b: Input value
- * @size: Number of bytes to be printed by input value
+ * @b: The buffer to be printed
+ * @size: Number of bytes to be printed by printed buffer
  * Return: int
  */
 
@@ -13,7 +13,7 @@ void print_buffer(char *b, int size)
 {
 	int byte, index;
 
-	for (byte = 0; byte < size ; byte += 10)
+	for (byte = 0; byte < size; byte += 10)
 	{
 		printf("%08x: ", byte);
 
