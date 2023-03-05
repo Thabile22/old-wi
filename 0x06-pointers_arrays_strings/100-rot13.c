@@ -24,7 +24,7 @@ char *rot13(char *str)
 	{
 		for (j = 0; j < 52; j++)
 		{
-			if (str[i] == alp[i])
+			if (str[i] == alp[j])
 			{
 				str[i] = rot[j];
 				break;
