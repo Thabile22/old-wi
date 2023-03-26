@@ -7,7 +7,7 @@
  * @s1: string to append to
  * @s2: string to concatenate from
  * @n: Number of bytes from s2 to concatenate to s1
- * Return: Null if function fails
+ * Return: pointer to the resulting string
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
