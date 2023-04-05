@@ -1,4 +1,5 @@
 #include "lists.h"
+#include<stdio.h>
 
 /**
  * listint_len - entry point 
@@ -13,9 +14,8 @@ size_t listint_len(const listint_t *h)
 
 	while (h)
 	{
-		printf("%d\n", h->n);
-		num++;
 		h = h->next;
+		num++;
 	}
 	return (num);
 }
